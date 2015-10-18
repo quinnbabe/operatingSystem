@@ -1,0 +1,6 @@
+
+When you compile the program, please print: g++ lab1.cpp -o lab1(any output name you like).
+When you run the program, please print:./lab1(the output name) input-1(the input file name)
+
+Notice: The outputs of sample 12 and sample 13 are different from my outputs.
+In my program, if the file ends with blank line, the offset will be shown of the blank line, which is the same with the sample output. However, if the file ends with a token. In c++, the pointer will point at the token’s first character, which means the offset will be shown of the ending token’s first character’s offset. But the sample output gives the offset as the ending token’s last character’s offset.
